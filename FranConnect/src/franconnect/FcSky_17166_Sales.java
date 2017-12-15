@@ -1,3 +1,4 @@
+package franconnect;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -26,7 +27,7 @@ public class FcSky_17166_Sales {
 	  
 	  @BeforeTest
 	  public void beforeTest() {
-	   System.setProperty("webdriver.chrome.driver", "D:\\Automation\\2018_Automation\\chromedriver_win32\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "D:\\Franconnect_2018\\chromedriver_win32\\chromedriver.exe");
 	   driver = new ChromeDriver();
 	   baseUrl = "https://clusterdc.franconnect.net/fc/";
 	   driver.manage().window().maximize();
